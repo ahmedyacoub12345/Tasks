@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Left and Right Content</title>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px ;
+    }
+
+    .left-content {
+        flex: 1;
+        margin-right: 20px;
+        color: yellowgreen;
+    }
+
+    .right-content {
+        flex: 1;
+        text-align: right;
+    }
+
+    
+
+    .paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-content">
+        <h2 class="header">Styling text</h2><br>
+        <p class="paragraph">My first paragraph.</p>
+    </div>
+    <div class="right-content"><br><br>
+        <h2 class="header">Heading Num. 2</h2><br><br>
+        <p class="paragraph" style="font-variant: small-caps;">My second paragraph.</p>
+    </div>
+</div>
+
+</body>
+</html>

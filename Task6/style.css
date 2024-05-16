@@ -141,7 +141,7 @@ b{
     }
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .h1-1 {
         font-size: 13px; 
     }
@@ -153,6 +153,11 @@ b{
     }
     .card img {
         max-width: 100%; 
+    }
+    .h1-1, .header-p {
+        color: white;
+        text-align: center;
+        font-size: 13px;
     }
 }
 
